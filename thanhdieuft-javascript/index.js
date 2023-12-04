@@ -7,7 +7,7 @@ function onCreate() {
 //▬▬▬▬▬▬▬▬▬▬
 function ShowToast() {
   var x = document.getElementById("Toast");
-  x.className = "show";
+  x.className = "HoaiPhuong";
   setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3900);
 }
 //▬▬▬▬▬▬▬▬▬▬
